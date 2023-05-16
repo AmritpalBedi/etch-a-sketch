@@ -12,7 +12,7 @@ body {
     margin-bottom: 10px;
 }
 
-#drawing-area {
+#tablet {
     border-style: solid;
     border-color: red;
     width: 600px;
@@ -24,11 +24,9 @@ body {
     flex-wrap: wrap;
 }
 
-.box { 
-   background-color: black;
-} 
-
-#box {
+#drawingArea {
+    width: 600px;
+    height: 600px;
     display: flex;
-    /*width: 20px;*/
+    flex-wrap: wrap
 }
