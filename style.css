@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+}
+
+#title {
+    font-family: cursive, sans-serif;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#drawing-area {
+    border-style: solid;
+    border-color: red;
+    width: 600px;
+    height: 600px;
+    border-width: 70px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box { 
+   background-color: black;
+} 
