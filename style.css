@@ -27,3 +27,8 @@ body {
 .box { 
    background-color: black;
 } 
+
+#box {
+    display: flex;
+    /*width: 20px;*/
+}
