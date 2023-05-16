@@ -13,7 +13,8 @@ for (let i = 0; i < gridSize * gridSize; i++) {
     box = document.createElement("div");
     box.setAttribute("id", "box")
     box.setAttribute("onmouseover", "mouseOver(this)")
-    //box.style.width = `${600 / gridSize}`;
+    //box.style['width'] = `${600 / gridSize}px`;
+    box.style.width = `${600 / gridSize}px`;
     drawingArea.appendChild(box);
     
 }
